@@ -125,10 +125,19 @@ body {
     .d-bloc .panel .divider-h span, .l-bloc .divider-h span {
     border-color : rgb(0, 0, 0, 0.1);
     }
-    .d-bloc .panel .a-btn, .l-bloc .a-btn, .l-bloc .navbar a, .l-bloc .navbar-brand, .l-bloc a .icon-sm, .l-bloc a .icon-md, .l-bloc a .icon-lg, .l-bloc a .icon-xl, .l-bloc h1 a, .l-bloc h2 a, .l-bloc h3 a, .l-bloc h4 a, .l-bloc h5 a, .l-bloc h6 a, .l-bloc p a {
+    .d-bloc .panel .a-btn, .l-bloc .a-btn, .l-bloc .navbar-brand, .l-bloc a .icon-sm, .l-bloc a .icon-md, .l-bloc a .icon-lg, .l-bloc a .icon-xl, .l-bloc h1 a, .l-bloc h2 a, .l-bloc h3 a, .l-bloc h4 a, .l-bloc h5 a, .l-bloc h6 a, .l-bloc p a {
     color : rgb(0, 0, 0, 0.6);
     }
-    .d-bloc .panel .a-btn:hover, .l-bloc .a-btn:hover, .l-bloc .navbar a:hover, .l-bloc .navbar-brand:hover, .l-bloc a:hover .icon-sm, .l-bloc a:hover .icon-md, .l-bloc a:hover .icon-lg, .l-bloc a:hover .icon-xl, .l-bloc h1 a:hover, .l-bloc h2 a:hover, .l-bloc h3 a:hover, .l-bloc h4 a:hover, .l-bloc h5 a:hover, .l-bloc h6 a:hover, .l-bloc p a:hover {
+     .l-bloc .navbar a {
+        color: #292929;
+        font-weight: 600;
+     }
+
+     .l-bloc .navbar a:hover {
+        color: rgba(41,41,41,0.8);
+        border-bottom: 1px dotted #292929;
+     }
+    .d-bloc .panel .a-btn:hover, .l-bloc .a-btn:hover, .l-bloc .navbar-brand:hover, .l-bloc a:hover .icon-sm, .l-bloc a:hover .icon-md, .l-bloc a:hover .icon-lg, .l-bloc a:hover .icon-xl, .l-bloc h1 a:hover, .l-bloc h2 a:hover, .l-bloc h3 a:hover, .l-bloc h4 a:hover, .l-bloc h5 a:hover, .l-bloc h6 a:hover, .l-bloc p a:hover {
     color : rgb(0, 0, 0, 1);
     }
     .l-bloc .navbar-toggle .icon-bar {
@@ -451,6 +460,8 @@ body {
     }
     h2.realisations, h2.services {
         color: #000000;
+        max-width: 65%;
+        margin: auto;
     }
     p.text-center {
         color: #000000;
@@ -500,7 +511,7 @@ body {
     }
     .social {
     max-width : 400px;
-    margin : auto auto auto auto;
+    margin : 30px auto 30px auto;
     }
     h2 {
     font-size : 22px;
