@@ -473,6 +473,9 @@ body {
     .hero-bloc-text {
     font-size : 38px;
     }
+    .contact-h1 {
+        color: #000000;
+    }
     .hero-bloc-text-sub {
     font-size : 36px;
     }
@@ -491,7 +494,6 @@ body {
     .tight-width-whitespace, .light-green-card {
     max-width : 600px;
     margin : auto auto auto auto;
-    background-color: RGBA(92,87,55,0.5);
     padding: 40px;
     }
     .light-green-card h2 {
@@ -534,7 +536,7 @@ body {
     margin-top : 24px;
     }
     .white {
-    color : #FFFFFF !important ;
+    color : #1C1C1C !important ;
     }
     .portfolio-thumb {
     margin-bottom : 24px;
@@ -565,14 +567,14 @@ body {
     background-color : #364577;
     }
     .bgc-atomic-tangerine {
-    background-color : #514F1A;
+    background-color : #F3976C;
     }
     .btn-atomic-tangerine {
-    background : #514F1A;
-    color : #FFFFFF !important ;
+    background : #F3976C;
+    color : #1F1F1F !important ;
     }
     .btn-atomic-tangerine:hover {
-    background : #A29B26 !important ;
+    background : RGBA(243,151,108,0.56) !important ;
     color : #000000 !important;
     }
     .ltc-atomic-tangerine {
@@ -776,6 +778,4 @@ body {
     text-align : center;
     }
     }
-    h3.partenariats {
-        color: #FFF !important;
-    }
+    
